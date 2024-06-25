@@ -1,4 +1,4 @@
-name: pdf-verse
+name: Docker Image CI
 on:
   push:
     branches: [ "build" ]
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     name: build
     env:
-      IMAGE_NAME: PDF-Verse
+      IMAGE_NAME: pdf-verse
     steps:
       - 
         name: Checkout
