@@ -1,4 +1,4 @@
-name: PDF-Verse
+name: pdf-verse
 on:
   push:
     branches: [ "build" ]
